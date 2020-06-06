@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    position: fixed;
+    
+}
+
+header{
+    background-color:darkgray;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main{
+    width: 960px;
+    height: 1400px;
+    margin: auto;
+}
+
+nav{
+    float: left;
+    width: 425px;
+    position: relative; 
+    left: 20px;
+    top: -25px;
+}
+
+ul{
+    list-style: none;
+
+}
+
+li{
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+   
+    
+}
+
+li p{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    top:55px;
+    left:30px;
+    border-radius: 20px;
+}
+
+p{
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.icone_feed{
+    background-image: url("img/comunicacao.png");
+}
+
+.icone_feed:hover{
+    background-image: url("img/noticia.png");
+}
+.icone_sugestao{
+    background-image: url("img/pros-e-contras.png");
+}
+
+.icone_sugestao:hover{
+    background-image: url("img/sugestao.png");
+}
+
+.icone_mensagem{
+    background-image: url("img/enviar.png");
+}
+.icone_mensagem:hover{
+    background-image: url("img/enviar_black.png");
+}
+
+.icone_convite{
+    background-image: url("img/adicionar.png");
+}
+.icone_convite:hover{
+    background-image: url("img/adicionar_black.png");
+}
+
+
+div img{
+height: 150px;
+position: relative;
+top: 50%;
+left: 50%;
+}
+
+div figure{
+    align-self: stretch;
+}
+
+
+main img{
+    width: 960px;
+}
+
+header p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+   
+}
+
+#by{
+    position: relative;
+    top: 30px;
+    left: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
